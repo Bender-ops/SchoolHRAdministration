@@ -45,7 +45,7 @@ namespace SchoolHRAdministration
             IEmployee deputyHeadMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.DeputyHeadMaster, 4, "Devlin", "Brown", 60000);
             employees.Add(deputyHeadMaster);
 
-            IEmployee headMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.TeaHeadMastercher, 5, "Damien", "Jones", 80000);
+            IEmployee headMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.HeadMaster, 5, "Damien", "Jones", 80000);
             employees.Add(headMaster);
         }
     }
